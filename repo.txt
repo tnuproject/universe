@@ -1,0 +1,3 @@
+nano|7.2|x86_64|A small, friendly text editor|nano.tpkg
+doom|2024.01|x86_64|Classic Doom game ported to TNU|doom.tpkg
+fastfetch|2.0|x86_64|A fast system information fetcher|fastfetch.tpkg
