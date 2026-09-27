@@ -1,0 +1,323 @@
+{
+  "repository": {
+    "name": "universe",
+    "description": "Official Tiramisu Universe Package Repository",
+    "url": "https://raw.githubusercontent.com/tnuproject/universe/main",
+    "maintainer": "Tiramisu Core Team <universe@tiramisu.org>",
+    "version": "1.0.0",
+    "updated": "2026-09-27"
+  },
+  "packages": [
+    {
+      "name": "bash",
+      "version": "5.2.26",
+      "category": "shells",
+      "description": "GNU Bourne-Again Shell",
+      "size": 3020800,
+      "sha256": "8b784d9bb4403896777e5f72ded20d8b162dd00b85c130ac530e8de9539bda09",
+      "depends": [
+        "ncurses"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/bash-5.2.26.pkg"
+    },
+    {
+      "name": "bootd",
+      "version": "1.0.0",
+      "category": "sysutils",
+      "description": "Tiramisu Modern Init and Service Management Suite (PID 1)",
+      "size": 10240,
+      "sha256": "40e09e735c59ff0e72d4374c55181ff1f16eb8b6e1657b5a8b8a6599d748ba82",
+      "depends": [
+        "coreutils"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/bootd-1.0.0.pkg"
+    },
+    {
+      "name": "coreutils",
+      "version": "1.0.0",
+      "category": "sysutils",
+      "description": "Tiramisu Core System Utilities (cat, ls, pwd, echo, mkdir, cp, mv, rm, etc.)",
+      "size": 481280,
+      "sha256": "d3ea05dd90daa46db72eba1d651b2c4220ab6b0a2a5173423dea02f29144faf0",
+      "depends": [],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/coreutils-1.0.0.pkg"
+    },
+    {
+      "name": "curl",
+      "version": "8.6.0",
+      "category": "net",
+      "description": "Command line tool and library for transferring data with URLs",
+      "size": 256000,
+      "sha256": "9c29683ef5599725d3cb0f7b001ecdc7114c47f1af54eca76022f8b56947346a",
+      "depends": [
+        "openssl"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/curl-8.6.0.pkg"
+    },
+    {
+      "name": "doomgeneric",
+      "version": "1.0",
+      "category": "games",
+      "description": "Classic DOOM ported to Tiramisu native Linear Framebuffer",
+      "size": 10240,
+      "sha256": "c5ab8e658e4a5b504cda4bd0044b910583ce80937738576da75a699785295167",
+      "depends": [],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/doomgeneric-1.0.pkg"
+    },
+    {
+      "name": "fastfetch",
+      "version": "2.26.0",
+      "category": "sysutils",
+      "description": "Like neofetch, but much faster because written in C",
+      "size": 10240,
+      "sha256": "f7482d176c367286f588efcf1ae8e2538c72416ccb56dad85696d3a2e04a14e1",
+      "depends": [],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/fastfetch-2.26.0.pkg"
+    },
+    {
+      "name": "fsh",
+      "version": "1.0.0",
+      "category": "shells",
+      "description": "Tiramisu Shell - Modern default interactive command language for Tiramisu",
+      "size": 10240,
+      "sha256": "f111ad4df1b40dfe927490dc4a48c4a9dc36de2e22d3b7464786c57e6605e5d8",
+      "depends": [
+        "coreutils"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/fsh-1.0.0.pkg"
+    },
+    {
+      "name": "git",
+      "version": "2.44.0",
+      "category": "devel",
+      "description": "Fast, scalable, distributed revision control system",
+      "size": 10240,
+      "sha256": "2c76f5024816a751f944632beb47be49ba2dea0b101e3429b99b5351352ba232",
+      "depends": [
+        "curl"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/git-2.44.0.pkg"
+    },
+    {
+      "name": "gzip",
+      "version": "1.13",
+      "category": "archivers",
+      "description": "GNU data compression program",
+      "size": 10240,
+      "sha256": "0e74031d0a2397f0d531d5a9680d76e52a503fc2c21f33a7016a1ee3d851c309",
+      "depends": [
+        "zlib"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/gzip-1.13.pkg"
+    },
+    {
+      "name": "iwlwifi-firmware",
+      "version": "20260924",
+      "category": "sysutils",
+      "description": "Intel wireless firmware blobs for iwl/iwm/iwn drivers (3160/3168/4965/5000/5100/5150/5300/6000/6050/7260/7265/8000C/8265/9000/9260 series and AX200/AX201/AX210/AX211)",
+      "size": 65914880,
+      "sha256": "1bd1ad90f2bb10b0971045c00b8fc45d69974772d04a63b6ff9b6b6760ef497f",
+      "depends": [],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/iwlwifi-firmware-20260924.pkg"
+    },
+    {
+      "name": "links",
+      "version": "2.29",
+      "category": "www",
+      "description": "Fast, lightweight text-mode and graphics web browser",
+      "size": 10240,
+      "sha256": "8ba5ed5c096badcea451d86fed468b56f4d89e6641cd00ba501d8985e36de8d2",
+      "depends": [
+        "openssl"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/links-2.29.pkg"
+    },
+    {
+      "name": "lua",
+      "version": "5.4.6",
+      "category": "lang",
+      "description": "Powerful, lightweight multi-paradigm programming language",
+      "size": 10240,
+      "sha256": "7a08ff10b16a365139659ae769368da7383bac2e8a00d0b95148ffa92c1201b4",
+      "depends": [
+        "ncurses"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/lua-5.4.6.pkg"
+    },
+    {
+      "name": "nano",
+      "version": "9.2",
+      "category": "editors",
+      "description": "Enhanced clone of the Pico text editor",
+      "size": 921600,
+      "sha256": "45526ab0595c98c07f4de5867f52476869a899af7c5add30e5904a9f8b6e139f",
+      "depends": [
+        "ncurses"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/nano-9.2.pkg"
+    },
+    {
+      "name": "ncurses",
+      "version": "6.4",
+      "category": "devel",
+      "description": "CRT screen handling and optimization library",
+      "size": 10240,
+      "sha256": "8f499a395638c51f58b1c6d733b604123d1be01bcba7af0a2fdc25a3a1985db4",
+      "depends": [],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/ncurses-6.4.pkg"
+    },
+    {
+      "name": "neofetch",
+      "version": "7.1.0",
+      "category": "sysutils",
+      "description": "Fast, highly customizable system information tool",
+      "size": 368640,
+      "sha256": "a98d99ad296e7beae1a34640188f7d4bc51c1fa0ba7974614ce01dca3435603d",
+      "depends": [
+        "coreutils"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/neofetch-7.1.0.pkg"
+    },
+    {
+      "name": "net-tools",
+      "version": "1.0.0",
+      "category": "net",
+      "description": "Network configuration and diagnostic utilities (ifconfig, ping)",
+      "size": 20480,
+      "sha256": "577b9f0f26bf93ed8860371e5394a7d07eaa4995e43b7c662de2b7b1fb3296bb",
+      "depends": [
+        "coreutils"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/net-tools-1.0.0.pkg"
+    },
+    {
+      "name": "openssl",
+      "version": "3.2.1",
+      "category": "security",
+      "description": "Cryptography and SSL/TLS toolkit",
+      "size": 10240,
+      "sha256": "0fd17a93adc7f68ca79fd59c101f54f90cc4cb09d2a9654d7714ad8a94d540a2",
+      "depends": [],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/openssl-3.2.1.pkg"
+    },
+    {
+      "name": "pkg",
+      "version": "1.0.0",
+      "category": "sysutils",
+      "description": "Tiramisu Next-Generation Package Management and Port System",
+      "size": 10240,
+      "sha256": "6552186ace243cfa00b56ee9c7212bacd8f3b064ced96c7b4e74c95685abe140",
+      "depends": [
+        "coreutils",
+        "net-tools"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/pkg-1.0.0.pkg"
+    },
+    {
+      "name": "python",
+      "version": "3.11.8",
+      "category": "lang",
+      "description": "Interpreted object-oriented programming language",
+      "size": 10240,
+      "sha256": "f603eea0026175685b6ab3a1e2216c69dadc19728f89d38dc08ffe96a50ed296",
+      "depends": [
+        "openssl"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/python-3.11.8.pkg"
+    },
+    {
+      "name": "shadow",
+      "version": "1.0.0",
+      "category": "sysutils",
+      "description": "Tiramisu User and Authentication Tools (su, passwd, adduser, removeuser, chsh)",
+      "size": 20480,
+      "sha256": "d0fece32679913199cfe01dbaf88e28b52c736444f8304bc45d7533d61974a0d",
+      "depends": [
+        "coreutils"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/shadow-1.0.0.pkg"
+    },
+    {
+      "name": "sudo",
+      "version": "1.9.15",
+      "category": "security",
+      "description": "Execute a command as another user with privilege specification",
+      "size": 10240,
+      "sha256": "56a3fb83a9eb28e820d00c9783688d16045e273477b3c9affdaed3904c34b92a",
+      "depends": [
+        "shadow",
+        "coreutils"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/sudo-1.9.15.pkg"
+    },
+    {
+      "name": "sysinstall",
+      "version": "1.0.0",
+      "category": "sysutils",
+      "description": "Tiramisu Hard Disk Installer with ext4 and GRUB Support",
+      "size": 10240,
+      "sha256": "b693a63d82b94cfe1e1b38cb72d3d7443075c18617df2a4aed39fd2778b8f995",
+      "depends": [
+        "coreutils",
+        "bootd"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/sysinstall-1.0.0.pkg"
+    },
+    {
+      "name": "tar",
+      "version": "1.35",
+      "category": "archivers",
+      "description": "GNU implementation of the tar archiving utility",
+      "size": 471040,
+      "sha256": "2a1b7203b19606d16b0a39b399f51b726d940f985b085fc9e1aad1d4123d3ee3",
+      "depends": [],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/tar-1.35.pkg"
+    },
+    {
+      "name": "tmux",
+      "version": "3.4",
+      "category": "sysutils",
+      "description": "Terminal multiplexer",
+      "size": 10240,
+      "sha256": "da29537cfc5986c4ec7ce8361903c9bb4fb37f045258366f574dcd4faf4404a0",
+      "depends": [
+        "ncurses"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/tmux-3.4.pkg"
+    },
+    {
+      "name": "vim",
+      "version": "9.1.0",
+      "category": "editors",
+      "description": "Vi IMproved - enhanced vi clone",
+      "size": 10240,
+      "sha256": "60b5c817aba250304b7b349548e231129c6c8d86206fa88d8c8f1615db7a2a30",
+      "depends": [
+        "ncurses"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/vim-9.1.0.pkg"
+    },
+    {
+      "name": "wget",
+      "version": "1.21.4",
+      "category": "net",
+      "description": "Non-interactive command-line tool for downloading files from the web",
+      "size": 51200,
+      "sha256": "d934fef3ebfe49dd7d97c301a1868d850c67eb8efaf1cf638b01ac61d1a63fe6",
+      "depends": [
+        "openssl"
+      ],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/wget-1.21.4.pkg"
+    },
+    {
+      "name": "zlib",
+      "version": "1.3.1",
+      "category": "devel",
+      "description": "General purpose data compression library",
+      "size": 10240,
+      "sha256": "fae02aece5d72ace51d0e0d5fd25c9d8288c777ce86c3df821056d49d7a182be",
+      "depends": [],
+      "url": "https://raw.githubusercontent.com/tnuproject/universe/main/packages/zlib-1.3.1.pkg"
+    }
+  ]
+}
